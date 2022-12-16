@@ -1,0 +1,10 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUinuF-Pd5X62g1Sijp2qbcikaeIkF9pwes8v4tqYiVQ&s'); */
+}
