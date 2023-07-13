@@ -41,7 +41,7 @@ const Home = () => {
             <h3>Category: </h3>
             <div className="categ">
               {
-                productsCategory.map(category => (
+                productsCategory?.map(category => (
                   <ul key={category.id}>
                     <li><Link onClick={() => dispacth(filterProductsThunk(category.id))} className='word'>{category.name}</Link></li>
                   </ul>
