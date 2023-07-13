@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     dispacth(getProductsThunk())
     axios.get('https://e-commerce-api.academlo.tech/api/v1/products/categories')
-      .then(res => setProductsCategory(res.data.data.categories))
+      .then(res => setProductsCategory(res.data.data?.categories))
     // axios.get('https://e-commerce-api.academlo.tech/api/v1/products')
     //   .then(res => setProducts(res.data))
   }, [])
